@@ -1,3 +1,11 @@
 node_modules
 # Keep environment variables out of version control
 .env
+
+# Ignore JavaScript files in src/ (if compiled in-place)
+src/**/*.js
+src/**/*.js.map
+
+# Ignore the dist directory if TypeScript compiles to a different directory
+dist/
+
