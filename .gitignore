@@ -5,7 +5,7 @@ node_modules
 # Ignore JavaScript files in src/ (if compiled in-place)
 src/**/*.js
 src/**/*.js.map
-
+DS_Store
 # Ignore the dist directory if TypeScript compiles to a different directory
 dist/
 

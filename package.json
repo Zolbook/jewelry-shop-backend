@@ -2,9 +2,9 @@
   "type": "module",
   "name": "lab3",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "npm run build && node dist/server.js ",
+    "start": "npm run build && node dist/index.ts ",
     "build": "tsc",
     "dev": "nodemon"
   },
