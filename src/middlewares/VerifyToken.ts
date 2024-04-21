@@ -8,7 +8,7 @@ export const verifyToken =(req:any, res:any, next:any) => {
     try {
         const token = req.headers.authorization?.split(' ')[1];
         if (!token) {
-            return res.status(401).send('Token not provided');
+            return res.status(401).send('Токен байхгүй байна');
         }
         const decoded = jwt.verify(token, secretkey);
         console.log("Decoded Token:", decoded);
